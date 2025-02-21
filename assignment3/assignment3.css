@@ -1,0 +1,29 @@
+.yellowred {
+    color: yellow;
+    background-color: red;
+}
+
+.greenblue {
+    color: green;
+    background-color: blue;
+}
+
+.red {
+    color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
