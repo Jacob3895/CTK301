@@ -1,0 +1,223 @@
+body {
+    background-color: grey;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 1em auto;
+    padding: 0;
+    border: 10px solid black;
+    background-color: #535050;
+    border-radius: 20px;
+    width: 1100px;
+}
+
+header {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    border-right: 100px solid #535050;
+    border-left: 100px solid #535050;
+}
+
+h1 {
+    border: 2px solid #871414;
+    background-color: #871414;
+    border-radius: 30px;
+}
+
+nav {
+    grid-column: span 12;
+    border: 20px solid #871414;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #ffffff;
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #cc0000;
+    background-image: linear-gradient(to bottom, #b51f1f, #a51b1b, #961717, #871414, #781010);
+}
+
+nav li a:hover {
+    background-image: linear-gradient(to top, #b51f1f, #a51b1b, #961717, #871414, #781010);
+}
+
+#LDDText h2 {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 20px 200px;
+}
+
+
+#LDD {
+    grid-column: span 12;
+    border: 5px solid #535050;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#LDD img {
+    width: 600px;
+}
+
+#myCarousel {
+    margin: 24px;
+}
+  
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #535050;
+}
+  
+.f-carousel {
+    --f-button-width: 38px;
+    --f-button-height: 38px;
+  
+    --f-button-svg-width: 16px;
+    --f-button-svg-height: 16px;
+    --f-button-svg-stroke-width: 2.5;
+  
+    --f-button-color: rgb(71 85 105);
+    --f-button-border-radius: 50%;
+    --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+            0 / 30%);
+  
+    --f-button-bg: #fff;
+    --f-button-hover-bg: #f9f9f9;
+    --f-button-active-bg: #f0f0f0;
+}
+
+#LDDText {
+    grid-column: span 12;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+#LDDText p {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    margin: 20px 50px;
+    font-size: 20px;
+}
+
+#GameText h2 {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 20px 200px;
+}
+
+#Game {
+    grid-column: span 12;
+    text-align: center;
+}
+
+#Game img {
+    width: 600px;
+    margin: 20px 0px;
+}
+
+#GameText {
+    grid-column: span 12;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+#GameText p {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    margin: 20px 50px;
+    font-size: 20px;
+}
+
+#MayaText {
+    grid-column: span 12;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+#MayaText h2 {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 20px 200px;
+}
+
+#Maya {
+    grid-column: span 12;
+    text-align: center;
+}
+#Maya video {
+    border: 10px solid #871414;
+    border-radius: 10px;
+}
+
+#MayaText p {
+    background-color: #871414;
+    border: 10px solid #871414;
+    border-radius: 10px;
+    margin: 20px 50px;
+    font-size: 20px;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: #871414;
+    border: 5px solid #871414;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+footer a {
+    float: right;
+    font-size: 100px;
+    color: white;
+}
+
+
+
